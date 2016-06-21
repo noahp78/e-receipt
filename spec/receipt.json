@@ -18,7 +18,9 @@
         "ammount": "15.00",
         "return": "14.00"
     },
+	
     "store_uuid": "UUID of store to add custom elements",
     "time": "time_of_purchase",
     "additional_data": "custom_json_for_data"
+	"return_code": "barcode_for_returns (OPTIONAL)"
 }

@@ -1,0 +1,11 @@
+{
+	"store_uuid": "uuid_of_store",
+	"store_logo": "url_to_logo",
+	"elements": {
+		"pre_reciept":"Things before list of items",
+		"after_reciept":"Things just after total",
+		"pre_payment":"Things before payment_id",
+		"after_payment": "Things at the bottom of the reciept"
+	}
+
+}
