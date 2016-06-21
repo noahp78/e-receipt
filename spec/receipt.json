@@ -1,0 +1,24 @@
+{
+    "version": "v1",
+    "target": "(Hash of PayerID+Name)",
+    "reciept": [
+        {
+            "ean": "(itemcode)",
+            "name": "itemname",
+            "count": "5",
+            "e-price": "price_before_discount",
+            "total": "total_price",
+            "image": "OPTIONAL_IMAGE_URL",
+            "text": "OPTIONAL_TEXT"
+        }
+    ],
+    "total": "1EUR",
+    "payment_data": {
+        "payment_method": "DEBIT_CARD",
+        "ammount": "15.00",
+        "return": "14.00"
+    },
+    "store_uuid": "UUID of store to add custom elements",
+    "time": "time_of_purchase",
+    "additional_data": "custom_json_for_data"
+}
